@@ -1,0 +1,42 @@
+[PROJECT]
+Target=main.HEX
+Development_Mode=
+Processor=0x845F
+ToolSuite=CCS
+
+[Directories]
+Include=C:\Program Files\PICC\devices\;C:\Program Files\PICC\drivers\
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=main.c;
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[main.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=main.c
+
+[Windows]
+0=0000 main.c 0 0 796 451 3 0
+
+[Opened Files]
+1=F:\Hardware_design\Projects\AVS-50\Firmware\Main\main.c
+2=F:\Hardware_design\Projects\AVS-50\Firmware\Main\main.lst
+3=C:\Program Files\PICC\devices\avs50_loader.h
+4=
+5=F:\Hardware_design\Projects\AVS-50\Firmware\Main\main.sta
+6=
+7=F:\Hardware design\AVS-50\Firmware\Main\Lang.txt
+8=
+9=

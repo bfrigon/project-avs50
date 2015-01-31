@@ -1,0 +1,65 @@
+Main menu
+----------------
+6-VHS1   
+#2-DVD1 #1-DVD1
+----------------
+
+
+Main menu (No display)
+----------------
+Monitoring off
+
+----------------
+
+
+Select destination
+----------------
+>*-****    DEST?
+#*-**** #*-****
+----------------
+
+
+Select source (ALL)
+----------------
+>6-VHS1     SRC?
+#*-**** #*-****
+----------------
+
+
+Select source (Video)
+----------------
+>6-VHS1  SRC(V)?
+#*-**** #1-DVD1
+----------------
+
+
+Select source (Audio)
+----------------
+>6-VHS1  SRC(A)?
+#1-DVD1 #*-****
+----------------
+
+Select preset
+----------------
+Load preset?  >1
+(1-9)
+----------------
+
+
+Save preset, step 1 (Select channel to save)
+----------------
+Channel?      >9
+(1-7, 9=ALL)
+----------------
+
+Save preset, step 2 (Select preset slot)
+----------------
+Save preset?  >1
+(1-9)
+----------------
+
+Save preset, step 3 (Confirm)
+----------------
+Save?
+(SET=YES CLR=NO)
+----------------

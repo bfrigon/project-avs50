@@ -1,0 +1,39 @@
+========================================================================
+
+		 AVS-50 Firmware version history
+
+========================================================================
++ Fature added
+- Deleted
+* Modification
+! bug correction
+========================================================================
+
+
+
+26/04/2004
+------------------------------------------------------------------------
+V0.01	+Initial version of firmware
+
+
+28/04/2004
+------------------------------------------------------------------------
+v0.02   +Added a bootloader
+
+
+09/05/2004
+------------------------------------------------------------------------
+v0.03   + Implemented a "serial remote controller" protocol:
+	   a) The firmware sends a copy of each character displayed 
+	      on the LCD to the host in realtime, this
+	   b) The host can send key strokes to the device by using 
+              the command 0xFC (252)
+
+	* Included the acknowledge response in a reply block instead 
+	  of a single character
+
+	* Changed block start character from 0xFF to 0X10 and stop 
+	  character from 0xFE to 0x11 The two changes above will permit
+	  the use of a serial remote controller
+
+	! The bootloader is working... finally!!

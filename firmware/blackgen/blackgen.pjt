@@ -1,0 +1,37 @@
+[PROJECT]
+Target=BlackGen.HEX
+Development_Mode=
+Processor=0x2675
+ToolSuite=CCS
+
+[Directories]
+Include=C:\Program Files\PICC\devices\;C:\Program Files\PICC\dr
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=BlackGen.c;
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[BlackGen.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=BlackGen.c
+
+[Windows]
+0=0000 BlackGen.c 0 0 796 451 3 0
+
+[Opened Files]
+1=F:\Hardware_design\AVS-50\Firmware\BlackGen\BlackGen.c
+2=F:\Hardware_design\AVS-50\Firmware\BlackGen\BlackGen.lst
+3=
+4=
